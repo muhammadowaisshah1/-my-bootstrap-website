@@ -1,0 +1,100 @@
+.main{
+    height: 30px;
+    width: 100%;
+    background-color: #21807F;
+}
+#navbar-example2{
+    display: flex !important;
+    justify-content:space-around !important;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.center{
+    width: 96%;
+    margin: auto;
+}
+#logo{
+    height: 150px;
+}
+
+.logo{
+    background-color: red !important;
+
+    border-radius: 30%;
+    margin-right: 5px;
+    
+}
+.btn{
+    background-color: #21807F !important;
+    color: #fff;
+}
+.nav-item{
+    color: #1F2937;
+}
+#hero{
+    color:#1F2937 !important;
+}
+.feature{
+    color:#1F2937 !important;
+padding: 10px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero-section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.add-to:hover{
+background-color: #21807F !important;
+color: #1F2937 !important;
+transition: all ease-in-out 0.5s !important;
+border-radius: 10px;
+}
+
+/* feature section  */
+
+.medicine-card img {
+    height: 180px;
+    object-fit: contain;
+    padding: 10px;
+  }
+
+  .medicine-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .medicine-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .feature {
+    text-align: center;
+    margin: 40px 0 20px;
+  }
+  .nav-link.active {
+  background-color: transparent !important;
+  color: #28a745 !important; /* Bootstrap green */
+  font-weight:bolder;
+}
+
+.dropdown-toggle{
+
+    background-color: transparent !important;
+    color: #28a745 !important; 
+    color: #1F2937;
+    font-size: 20px;
+    
+} 
+.add-to:active {
+    background-color: transparent !important;
+  color: #28a745 !important; /* Bootstrap green */
+  font-weight:bolder;
+
+}
